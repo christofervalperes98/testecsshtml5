@@ -1,0 +1,44 @@
+
+
+
+.cubo{
+    
+    background: black;
+    width: 500px;
+    height: 500px;
+    border: solid;
+    
+    
+}
+.cubo:hover{
+    
+    box-shadow: 10px 10px 5px;
+    animation-name: animacao;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    position: relative;
+}
+
+@keyframes animacao{
+    
+    from{
+      background: gray;
+      margin-right: 100%;
+      width: 0%
+    }
+    50%{
+        
+      background: yellow;
+      margin-right: 50%
+    }
+    to 
+    {
+        background: white;
+        margin-right: 0%;
+        width: 100%;
+    }   
+}
+
+
+
+
